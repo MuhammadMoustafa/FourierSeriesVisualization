@@ -22,8 +22,8 @@ function draw() {
 
 	for (let i = 0; i < circleSlider.value(); i++) {
 
-		//let n = 2 * i + 1
-		let n = i + 1
+		let n = 2 * i + 1
+		// let n = i + 1
 		prevX = smallCircleCenterX;
 		prevY = smallCircleCenterY;
 
